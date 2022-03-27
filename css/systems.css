@@ -1,0 +1,88 @@
+/*
+    Kevin McAlister
+    03/30/2022
+    WEB-140.0002
+    Vicious Cycles
+*/
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E7FBFB;
+}
+
+h1 {
+    color: #010b5b;
+    text-align: center;
+    font-size: 4rem;
+}
+
+ul {
+    font-style: italic
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #3a24f0;
+
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    color: black;
+    margin: 20px 20px;
+}
+
+/*
+nav a:hover{
+    text-decoration: solid, underline;
+}
+*/
+
+
+.dropbutton {
+    background-color:#3a24f0;
+    text-align: center;
+    border: none;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.dropdown {
+    position: relative; /* keep in line with other banner elements*/
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute; /* Keep from moving other things on the navbar*/
+    background-color: #8df6fd;
+    min-width: 140px;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: none;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display:grid;
+}

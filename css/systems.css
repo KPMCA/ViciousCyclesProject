@@ -6,6 +6,7 @@
 */
 
 body {
+    height: 100%;
     width: 80%;
     margin: 0 auto;
     font-family: Verdana, Helvetica, Tahoma, sans-serif;
@@ -32,9 +33,11 @@ h2 {
 footer {
     color: black;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 100%;
     width: 100%;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
 ul {
